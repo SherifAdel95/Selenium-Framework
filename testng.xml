@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regression Suite">
+	<parameter name="browser" value="chrome"></parameter>
+	<test name="Regression Test" preserve-order="true">
+		<classes>
+			<class name="tests.userRegistrationTest" />
+			<class name="tests.productHoverMenuTest" />
+			<class name="tests.MyAccountTest" />
+			<class name="tests.searchProductTest" />
+			<class name="tests.RegisteredUserCheckOutProductTest" />
+			<class name="tests.contactUsTest" />
+			<class name="tests.changeCurrency" />
+			<class name="tests.AddProductToWishList" />
+			<class name="tests.AddProductReviewTest" />
+			<class name="tests.compareProductsTest" />
+			<class name="tests.CheckOutProductAsGuest" />
+
+		</classes>
+	</test>
+</suite> 
